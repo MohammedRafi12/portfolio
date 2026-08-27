@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammed Rafi Shaik — AI/ML Engineer</title>
+<meta name="description" content="Portfolio of Mohammed Rafi Shaik, AI/ML Engineer specializing in Python, machine learning and data-driven solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<canvas id="net-bg"></canvas>
+ 
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">Mohammed Rafi<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#education">education</a>
+      <a href="#certs">certs</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a class="btn btn-ghost nav-cv" href="assets/Mohammed_Rafi_Shaik_CV.pdf" download>Download CV</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+ 
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">// ai-ml-engineer.init()</p>
+    <h1 class="hero-title">
+      Mohammed Rafi Shaik
+    </h1>
+    <p class="hero-role">Aspiring AI / ML Engineer</p>
+    <p class="hero-desc">
+      Passionate about artificial intelligence, machine learning, and data-driven technologies.
+      I build intelligent solutions with Python, ML algorithms, and data analysis — turning
+      complex problems into efficient systems with real-world impact.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="assets/Mohammed_Rafi_Shaik_CV.pdf" download class="btn btn-outline">Download CV</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://www.linkedin.com/in/mohammed-rafi-shaik-9186b3383/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-btn">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
+      <a href="mailto:mohammedrafi4727@gmail.com" aria-label="Email" class="social-btn">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.55 6.03a.5.5 0 0 0 .5 0L19.8 6H4.2zM20 7.8l-6.98 5.58a2.5 2.5 0 0 1-3.04 0L4 7.8V18h16V7.8z"/></svg>
+      </a>
+      <a href="https://github.com/MohammedRafi12" target="_blank" rel="noopener" aria-label="GitHub" class="social-btn">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.22-3.37-1.22-.46-1.2-1.11-1.52-1.11-1.52-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.55 2.36 1.11 2.94.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span></span></div>
+</section>
+ 
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-photo-wrap">
+      <div class="about-photo">
+        <img src="assets/profile.jpg" alt="Mohammed Rafi Shaik" onerror="this.parentElement.classList.add('no-photo')">
+        <span class="initials">Mohammed Rafi Shaik</span>
+      </div>
+      <div class="about-photo-tag">AI/ML Engineer</div>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow">// about</p>
+      <h2 class="section-title">Building intelligence into software</h2>
+      <p class="about-text">
+        I specialize in developing intelligent solutions using Python, machine learning
+        algorithms, and data analysis techniques. With a strong foundation in programming
+        and mathematics, I aim to transform complex problems into efficient, intelligent
+        solutions that create real-world impact and drive innovation.
+      </p>
+      <div class="about-facts">
+        <div class="fact"><span class="fact-num">8.67</span><span class="fact-label">CGPA</span></div>
+        <div class="fact"><span class="fact-num">98.16%</span><span class="fact-label">Best model accuracy</span></div>
+        <div class="fact"><span class="fact-num">2+</span><span class="fact-label">ML projects shipped</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <p class="eyebrow">// skills</p>
+    <h2 class="section-title">Toolkit</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">C</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>ML / Data</h3>
+        <div class="tag-row">
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">TF-IDF</span>
+          <span class="tag">Seaborn</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Frameworks</h3>
+        <div class="tag-row">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Streamlit</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Tools / Platforms</h3>
+        <div class="tag-row">
+          <span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <div class="tag-row">
+          <span class="tag">Problem-Solving</span>
+          <span class="tag">Project Management</span>
+          <span class="tag">Adaptability</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <p class="eyebrow">// projects</p>
+    <h2 class="section-title">Selected work</h2>
+ 
+    <div class="project-card">
+      <div class="project-visual">
+        <svg viewBox="0 0 200 200" class="project-icon">
+          <circle cx="100" cy="100" r="92" class="pi-ring"/>
+          <path d="M55 130 L80 90 L100 115 L125 65 L150 100" class="pi-line"/>
+          <circle cx="55" cy="130" r="5" class="pi-dot"/>
+          <circle cx="80" cy="90" r="5" class="pi-dot"/>
+          <circle cx="100" cy="115" r="5" class="pi-dot"/>
+          <circle cx="125" cy="65" r="5" class="pi-dot"/>
+          <circle cx="150" cy="100" r="5" class="pi-dot"/>
+        </svg>
+      </div>
+      <div class="project-copy">
+        <span class="project-date">October 2025</span>
+        <h3>Student Expense Tracker</h3>
+        <p>
+          A web app to record, manage and monitor daily student expenses. Add, view, update
+          and delete records through a simple, user-friendly interface, with expense
+          categorization and automatic totals to reveal spending patterns.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag-sm">HTML</span>
+          <span class="tag tag-sm">CSS</span>
+          <span class="tag tag-sm">JavaScript</span>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="project-card reverse">
+      <div class="project-visual">
+        <svg viewBox="0 0 200 200" class="project-icon">
+          <rect x="30" y="30" width="140" height="140" rx="14" class="pi-ring" fill="none"/>
+          <path d="M55 120 Q75 60 100 100 T145 70" class="pi-line"/>
+          <circle cx="55" cy="120" r="5" class="pi-dot"/>
+          <circle cx="100" cy="100" r="5" class="pi-dot"/>
+          <circle cx="145" cy="70" r="5" class="pi-dot"/>
+          <text x="100" y="150" text-anchor="middle" class="pi-text">SPAM / HAM</text>
+        </svg>
+      </div>
+      <div class="project-copy">
+        <span class="project-date">August 2026</span>
+        <h3>AI-Based Spam Message Detection</h3>
+        <p>
+          An NLP + ML system that classifies SMS messages as spam or not spam. Built a
+          TF-IDF text classification pipeline comparing Naive Bayes, Logistic Regression
+          and SVM — the SVM model reached <strong>98.16% accuracy</strong> and a
+          <strong>92.31% F1-score</strong>. Deployed as an interactive Streamlit app
+          showing predictions with confidence scores.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag-sm">Python</span>
+          <span class="tag tag-sm">Pandas</span>
+          <span class="tag tag-sm">NumPy</span>
+          <span class="tag tag-sm">Scikit-learn</span>
+          <span class="tag tag-sm">Streamlit</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- EDUCATION -->
+<section class="section section-alt" id="education">
+  <div class="section-inner">
+    <p class="eyebrow">// education</p>
+    <h2 class="section-title">Academic path</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Since August 2025</span>
+          <h3>Lovely Professional University</h3>
+          <p>Bachelor of Technology — Computer Science and Engineering &middot; CGPA 8.67</p>
+          <p class="timeline-loc">Punjab, India</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">May 2023 — March 2025</span>
+          <h3>Sri Chaitanya Junior College</h3>
+          <p>Higher Secondary Education &middot; 97%</p>
+          <p class="timeline-loc">Vijayawada, Andhra Pradesh</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">March 2023</span>
+          <h3>Sri Chaitanya School</h3>
+          <p>Secondary Education &middot; 95%</p>
+          <p class="timeline-loc">Nandyala, Andhra Pradesh</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- CERTIFICATIONS -->
+<section class="section" id="certs">
+  <div class="section-inner">
+    <p class="eyebrow">// certifications</p>
+    <h2 class="section-title">Certificates</h2>
+    <div class="certs-grid">
+      <a class="cert-card" href="assets/cert1-1.png" target="_blank" rel="noopener">
+        <img src="assets/cert1-1.png" alt="Network Management Systems Fundamentals certificate">
+        <div class="cert-info">
+          <h3>Network Management Systems Fundamentals</h3>
+          <span>Infosys Springboard &middot; Jan 2026</span>
+        </div>
+      </a>
+      <a class="cert-card" href="assets/cert2-1.png" target="_blank" rel="noopener">
+        <img src="assets/cert2-1.png" alt="Programming Using C++ certificate">
+        <div class="cert-info">
+          <h3>Programming Using C++</h3>
+          <span>Infosys Springboard &middot; Feb 2026</span>
+        </div>
+      </a>
+      <div class="cert-card cert-card-plain">
+        <div class="cert-info">
+          <h3>Introduction to Cyber Security</h3>
+          <span>February 2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ACHIEVEMENTS -->
+<section class="section section-alt" id="achievements">
+  <div class="section-inner">
+    <p class="eyebrow">// achievements</p>
+    <h2 class="section-title">Milestones</h2>
+    <div class="achv-grid">
+      <div class="achv-card">
+        <h3>C++ Certification — Infosys Springboard</h3>
+        <p>Demonstrating foundational programming and problem-solving skills.</p>
+      </div>
+      <div class="achv-card">
+        <h3>Community Development Project</h3>
+        <p>Contributed to digital/cyber awareness activities, gaining practical experience in community engagement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-inner contact-grid">
+    <div>
+      <p class="eyebrow">// contact</p>
+      <h2 class="section-title">Let's build something</h2>
+      <p class="about-text">
+        Open to AI/ML internships and collaborative projects. Reach out through any channel below.
+      </p>
+    </div>
+    <div class="contact-list">
+      <a class="contact-row" href="mailto:mohammedrafi4727@gmail.com">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.55 6.03a.5.5 0 0 0 .5 0L19.8 6H4.2zM20 7.8l-6.98 5.58a2.5 2.5 0 0 1-3.04 0L4 7.8V18h16V7.8z"/></svg>
+        <span>mohammedrafi4727@gmail.com</span>
+      </a>
+      <a class="contact-row" href="tel:+919703832820">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M6.6 10.8c1.4 2.7 3.6 4.9 6.3 6.3l2.1-2.1c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.5c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        <span>+91 97038 32820</span>
+      </a>
+      <div class="contact-row">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C7.6 2 4 5.6 4 10c0 5.6 8 12 8 12s8-6.4 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+        <span>Nandyal, Andhra Pradesh, India</span>
+      </div>
+      <a class="contact-row" href="https://www.linkedin.com/in/mohammed-rafi-shaik-9186b3383/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        <span>linkedin.com/in/mohammed-rafi-shaik</span>
+      </a>
+      <a class="contact-row" href="https://github.com/MohammedRafi12" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.22-3.37-1.22-.46-1.2-1.11-1.52-1.11-1.52-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.55 2.36 1.11 2.94.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        <span>github.com/MohammedRafi12</span>
+      </a>
+    </div>
+  </div>
+</section>
+ 
+<footer class="footer">
+  <p>Designed &amp; built by Mohammed Rafi Shaik — <span id="year"></span></p>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
